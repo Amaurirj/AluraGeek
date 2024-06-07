@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https: //fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&família =Pressione+Iniciar+2P&display=swap" rel="folha de estilo">
+    <script src="./js/conectaApi.js" type="module" defer></script>
+    <script src="./js/mostrarProdutos.js" type="module" defer></script>
+    <script src="./js/criarProduto.js" type="module" defer></script>
+    <title>Challenge Alura GeeK</title>
+
+</head>
+<body>
+    <header class="cabecalho__flex">
+        <img class="cabecalho__logo__img" src="assets/imageCoracao.png" alt=" 3 corações">
+        <div class="cabecalho__logo__titulo">AluraGeek</div>
+    </header>
+
+<main class="conteudo">
+    
+    <section class="bloco__principal__flex__conteudo">
+            <h1 class="bloco__principal__titulo">Meus Produtos</h1>
+                <ul class="bloco__principal__itens" id="meus__produtos" data-lista></ul>
+        </section>
+        <section class="bloco__adicional__flex">
+        <h1 class="bloco__adicional__flex__titulo">Adicionar Produto</h1>
+            <form class="conteiner__formulario" id="formulario" data-formulario>
+                <input class="campo__escrita" id="campo__nome" name="nome" type="text" placeholder="nome:" minlength="2" required data-nome data-pesquisa>
+                <input class="campo__escrita" id="campo__valor" name= "valor" type="text" placeholder="valor:" minlength="2" required data-valor>
+                <input class="campo__escrita" id="campo__imagem" name="imagem" type="text" placeholder="imagem:"  minLength="5" maxLength="100" required data-imagem >
+                
+                    <div class="botões" >
+                        <input type="submit" value="Guardar" class="guardar" data-botao-guardar>
+                        <button class="btn__limpar" id="limpar" data-botao-limpar>Limpar</button>
+                    </div>
+            </form><br>
+        </section>  
+</main>
+ <footer class="rodape__flex">
+    <div class="rodape__logo">
+    <img class="rodape__logo__img" src="assets/imageCoracao.png" alt=" 3 corações">
+    <div class="rodape__logo__titulo">AluraGeek</div>
+    </div>
+    <div class="rodape__texto">
+    <p1>DESENVOLVIDO POR AMAURI</p1>
+    <p2>ALURA LATAM 2024</p2>
+    </div>  
+ </footer>
+</body>
+</html>
+
+

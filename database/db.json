@@ -1,0 +1,41 @@
+{
+  "Produtos": [
+    {
+      "id": "0",
+      "nome": "Caneca Stormtrooper",
+      "valor": "90,00",
+      "imagem": "./assets/canecadv.png"
+    },
+    {
+      "id": "1",
+      "nome": "Garrafas Garfield",
+      "valor": "260,00",
+      "imagem":   "./assets/garrafa-garfield.png"
+    },
+    {
+      "id": "3",
+      "nome": "Battman",
+      "valor": "160,00",
+      "imagem": "./assets/funkobatman.png"
+    },
+    {
+      "id": "4",
+      "nome": "Garrafas Garfield",
+      "valor": "260,00",
+      "imagem":  "./assets/garrafa-garfield.png"
+    },
+    {
+      "id": "6",
+      "nome": "Copo Dart",
+      "valor": "110,00",
+      "imagem": "./assets/stormtrooper.png"
+    },
+    {
+      "id": "7",
+      "nome": "Game Boy",
+      "valor": "120,00",
+      "imagem":  "./assets/gameboy.png"
+    }
+  
+  ]
+}
